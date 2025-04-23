@@ -5,12 +5,18 @@ Halo teman-teman, selamat datang di modul 3 dari praktikum Perancangan Perangkat
 
 PHP >= 8.2
 Composer
+
 Node.js (https://nodejs.org/en)
+
 mysql
+
 Google Chrome
+
 Pastikan semua requirement di atas sudah terinstall pada laptop masing-masing!
 
+
 = = = = = = = = = = = = = = = = = = = = = = = =
+
 jika sudah memenuhi kriteria diatas teman-teman bisa melakukan clone pada project ini dan menjalankannya. caranya sebagai berikut 
 
 Lakukan clone proyek pada device kalian masing masing git clone
@@ -31,5 +37,7 @@ Migrate database dengan perintah php artisan migrate
 composer require laravel/dusk --dev
 
 php artisan dusk:install
+
+buka terminal baru jalankan npm install
 
 Jalankan proyek laravel dengan perintah php artisan serve & npm run dev pada terminal/cmd yang berbeda
